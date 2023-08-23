@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: terraform_sysops
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjmXBfnMlNSTFQoDQ6i2GE1EqFixyBC43zrwRTdVPlfvJi/WTmKlcgUSOlF1N1Ba8ALl0pDdr/fWPCDyuzwZyfzWYCCXOihY2fIkeinIWe9EGouvUT9M4CA3k96p8yq/lm+L01vx7BHvOiYxhmXxB3NI6yMNO8rQwngyZpcJynw2ZNPCw74rzyxHoY9ixUvLrYVJN/p170+MQPFmBuxBhtiZuw26vKuh05RNrwBkpYdIN995i95eYOQM6uSRpFf7+vYDggUH450w79iKY+HOqdGe4TY44vfPKHOgSHlafJvG1/1WLX6/fta3uOZTX4ZMKi4Y+qki7IEVzbxkeuyPR1gNy4gbNz9Moy65gSYdk7aiYJuHRPeh5DSQ4tx/eFjCGaRUEKrL2mdYnn5CFnKBcXjj6da6hKpUPThCP/sq39TWQiBND4AnMoAkNNGsJC5cMsCMOA8Uczre3njyYbk23h95i6Ldb6gDTxhE3+fv9e/oChvFlZBoQ3KnzGkyiUmgT7jGOHxmDN67FQkaBzoPW7B+CqgEOZA92gj1HEboTybAhmCo+ABGlZeDAA46icBXu1WYshezEpNCqyfP0kqZuOsuhICaH5EuFkAPcUzRpWXK5t7NiYAWzOaDzS7bACstyvkrNUZ4qIpM72pZfh8m+Oi6tWJO5pUcM+BLS0tsgKHQ== Timofei@Ermolaev.tech
